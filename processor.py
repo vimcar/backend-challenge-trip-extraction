@@ -38,7 +38,7 @@ class ListProcessor(metaclass=ABCMeta):
 
 class StreamProcessor(metaclass=ABCMeta):
     @abstractmethod
-    def process_waypoint(self, waypoint: Waypoint) -> Union[Waypoint, None]:
+    def process_waypoint(self, waypoint: Waypoint) -> Union[Trip, None]:
         """
         Instead of a list of Waypoints, the StreamProcessor only receives one
         Waypoint at a time. The processor does not have access to the full list
