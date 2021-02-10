@@ -28,7 +28,7 @@ like tunels and undregraound parkings.
 
 ## The task
 
-Your challange is to write a simplified version of the trip detection program.
+Your challange is to write a simplified version of the trip extraction program.
 
 
 For the trip extraction use the following logic:
