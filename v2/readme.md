@@ -33,15 +33,15 @@ Your challange is to write a simplified version of the trip detection program.
 
 For the trip extraction use the following logic:
 
-- The trip start conditions is: a stopped vehicle starts moving and leaves a circle of 20 
-meters diameter around it's rest position.
+- The trip start conditions is: a stopped vehicle leaves a circle of 20 meters diameter 
+around it's rest position.
 - The trip end conditions is: a moving vehicle remains within a circle of 20 meters 
 diameter for longer than 5 minutes.
 - Small distances of less than 10 meters between waypoints should be ignored.
 - Large distances in a short time, more than 10 km/minute between waypoints should be also ignored.
 
 
-The input is supplied in a file and contains a list of Waypoints, this is the gps information 
+The input is supplied in a file and contains of a list of Waypoints, this is the gps information 
 collected for one vehicle. A waypoints has the following structure. 
 
 - `timestamp` – string, a timestamp in ISO 8601 format
